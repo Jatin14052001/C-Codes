@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-//Printing Speed =((final velocity)^2-(initial velocity)^2)/(2*distance)
+//Printing Distance =((final velocity)^2-(initial velocity)^2)/(2*accleration)
 
 int main(){
 
@@ -17,7 +17,7 @@ int main(){
     cout<<"Enter value of final velocity is : ";
     cin>>v;
 
-    speed=(v*v-u*u)/(2*a);
+    distance=(v*v-u*u)/(2*a);
 
     cout<<"Speed is : "<<speed<<endl;
     return 0;
